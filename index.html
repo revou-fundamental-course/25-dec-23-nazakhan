@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Segitiga</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Katik </h1>
+  </header>
+  <main>
+    <div class ="ket">
+      <p> Hai sobat!! Selamat datang di Katik :) </p>
+      <p> Sebuah website sederhana yang berfungai untuk menghitung nilai dan luas bangun datar</p>
+    </div>
+    <div>
+      <button class = "tmplL" onclick="tampilkanLuas()">Luas Segitiga</button><br>
+      <button class = "tmplK" onclick="tampilkanKeliling()">Keliling Segitiga</button>
+    </div>
+    <div class="center">
+      <img src="gambar_segitiga.png" alt="Segitiga" width="200">
+      <div class="rumus">
+        <div id="rumusLuas" style="display: rumusLuas;">
+          <h2>Rumus Luas:</h2>
+          <p class ="ls">Luas = 1/2 * A * T</p>
+          <p> Dimana : </p>
+          <p> A = Alas Segitiga</p> 
+          <p> T = Tinggi segitiga</p>
+          <label for="alasInputLuas">Alas   :</label>
+          <input type="number" id="alasInputLuas"><br>
+          <label for="tinggiInputLuas">Tinggi:</label>
+          <input type="number" id="tinggiInputLuas"> <br><br>
+          <button class ="hitung" onclick="hitungLuas()">Hitung</button>
+        </div>
+        <div id="rumusKeliling" style="display: none;">
+          <h2 >Rumus Keliling:</h2>
+          <p class="ls">Keliling = S1 + S2 + S3</p>
+          <p> Dimana : </p>
+          <p> S1 = sisi A</p> 
+          <p> S2 = sisi B</p> 
+          <p> S3 = sisi C</p> 
+          <label for="sisi1InputKeliling">Sisi 1:</label>
+          <input type="number" id="sisi1InputKeliling">
+          <br><label for="sisi2InputKeliling">Sisi 2:</label>
+          <input type="number" id="sisi2InputKeliling">
+          <br><label for="sisi3InputKeliling">Sisi 3:</label>
+          <input type="number" id="sisi3InputKeliling">
+          <br><button class = "hitung" onclick="hitungKeliling()">Hitung</button>
+        </div>
+      </div>
+      <div>
+        <h2 id="hasil" class ="hasil">Hasil:</h2>
+      </div>
+    </div>
+  </main>
+  <button id="Reset" class="reset">Reset</button> 
+  <script src="script.js"></script>
+</body>
+</html>

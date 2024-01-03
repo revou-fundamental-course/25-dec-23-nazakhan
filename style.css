@@ -1,0 +1,88 @@
+/* style.css */
+header {
+    text-align: center; /* Mengatur teks di header ke tengah */
+    margin-bottom: 20px; /* Memberi ruang di bawah header */
+    background-color: #A52A2A;
+    color: #FFFFE0;
+  
+  }
+  
+  .center {
+    text-align: center; /* Mengatur teks di div dengan kelas 'center' ke tengah */
+  }
+  
+  .ket {
+    text-align: center; /* Mengatur teks di div dengan kelas 'center' ke tengah */
+  }
+  
+  img {
+    display: block; /* Membuat gambar menjadi elemen blok agar bisa diatur lebar secara horizontal */
+    margin: 0 auto; /* Meletakkan gambar ke tengah secara horizontal */
+  }
+  
+  .rumus {
+    text-align: left; /* Mengatur teks di div dengan kelas 'rumus' ke kiri */
+  }
+  
+  .ls {
+    text-align: center;
+  }
+  
+  .tmplL {
+    width: 100%; /* Atur lebar tombol */
+        padding: 10px; /* Tambahkan padding agar tombol terlihat lebih baik */
+        font-size: 15px;
+        background-color: #008B8B;
+        color: #FFFFE0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;/* Memberi ruang di atas tombol */
+  }
+  
+  .tmplK {
+    width: 100%; /* Atur lebar tombol */
+        padding: 10px; /* Tambahkan padding agar tombol terlihat lebih baik */
+        font-size: 15px;
+        background-color: #008B8B;
+        color: #FFFFE0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;/* Memberi ruang di atas tombol */
+  }
+  
+  
+  .hitung{
+    width: 120px; /* Atur lebar tombol */
+        padding: 10px; /* Tambahkan padding agar tombol terlihat lebih baik */
+        font-size: 16px;
+        background-color: 	#FFD700;
+        color: 	#B22222;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+  
+  }
+  
+  .reset {
+    width: 100px; /* Atur lebar tombol */
+      padding: 10px; /* Tambahkan padding agar tombol terlihat lebih baik */
+      font-size: 16px;
+      background-color: #8B0000;
+      color: #FAFAD2;
+      border : none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor :pointer;
+  }
+  
+  input {
+      width:500px ;
+      font-size: 16px;
+      margin-bottom: 5px;/* Memberi ruang di bawah input */
+  }
+  
+  .hasil {
+    text-align: left; /* Memberi ruang di atas hasil */
+  }
+  
